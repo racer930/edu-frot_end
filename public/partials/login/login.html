@@ -1,0 +1,60 @@
+<style>
+    .loginForm{
+        border: 1px rgb(242, 242, 242) solid;
+        border-radius: 8px;
+        background-color: rgb(242, 242, 242);
+        box-shadow: 3px 3px 0 0 rgba(100,100,100,0.55);
+        padding: 10% 0;
+        height: 500px;
+    }
+    .loginFormParent{
+         padding: 5% 0;
+    }
+    .backGround{
+        height: 700px;
+        background:url('http://www.imgbase.info/images/safe-wallpapers/digital_art/2d/31725_2d_simple_blue_simple_blue.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .loginInput{
+        outline: none;
+        border-left: 0 !important;
+        /*border-radius: 5px;*/
+        /*border: 1px  rgb(222, 222, 222) solid;*/
+        /*margin-bottom: 10px;*/
+        /*width: 80%;*/
+        /*height: 30px;*/
+
+    }
+    .center{
+        margin: auto;
+        text-align: center;
+    }
+    .center > h3{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+</style>
+<div class="backGround">
+    <div style="height: 100%; margin: 0;
+     background-color: rgba(48, 46, 46, 0.81)" class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 loginFormParent">
+            <div class="loginForm">
+                <div class="center"><h3>Company Name</h3>
+                    <div class="input-group" style="width: 80%;margin: auto; margin-bottom: 5%">
+                        <span class="input-group-addon"  style="background-color: white" id="basic-addon3"><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <input class="form-control loginInput" name="login" type="text" placeholder="Username" aria-describedby="basic-addon3">
+                    </div>
+                    <div class="input-group" style="width: 80%;margin: auto">
+                        <span class="input-group-addon" style="background-color: white" id="basic-addon2"><i class="fa fa-eye" aria-hidden="true"></i></span>
+                        <input class="form-control loginInput" name="login" type="password" placeholder="Password" aria-describedby="basic-addon2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>

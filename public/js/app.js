@@ -16,7 +16,8 @@ var app = angular.module('LF', [
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
-    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"});
+    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
+    .when("/login", {templateUrl: "partials/login/login.html", controller: "loginCtrl"});
 }]);
 
 /**
